@@ -1,0 +1,265 @@
+import pygame
+
+# Initialize pygame
+pygame.init()
+
+# Set the window caption
+pygame.display.set_caption("Welcome Screen")
+
+# Load the image
+image = pygame.image.load("welcome.jpg")
+
+# Create the window
+screen = pygame.display.set_mode((image.get_width(), image.get_height()))
+
+# Display the image
+screen.blit(image, (0,0))
+
+# Define the font and the text color
+font = pygame.font.Font(None, 36)
+color = (255, 255, 255)
+
+# Render the title text
+title_text = font.render("Welcome to our program", True, color)
+
+# Position the title text
+title_rect = title_text.get_rect(center=(image.get_width()/2, 50))
+
+# Blit the title text on the screen
+screen.blit(title_text, title_rect)
+
+# Render the subtitle text
+subtitle_text = font.render("Press any key to continue", True, color)
+
+# Position the subtitle text
+subtitle_rect = subtitle_text.get_rect(center=(image.get_width()/2, image.get_height() - 50))
+
+# Blit the subtitle text on the screen
+screen.blit(subtitle_text, subtitle_rect)
+
+# Update the display
+pygame.display.flip()
+
+# Wait for the user to press a key
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        elif event.type == pygame.KEYDOWN:
+            running = False
+
+# Quit pygame
+pygame.quit()
+import pygame
+
+# Initialize pygame
+pygame.init()
+
+# Set the window caption
+pygame.display.set_caption("Welcome Screen")
+
+# Load the image
+image = pygame.image.load("welcome.jpg")
+
+# Create the window
+screen = pygame.display.set_mode((image.get_width(), image.get_height()))
+
+# Display the image
+screen.blit(image, (0,0))
+
+# Define the font and the text color
+font = pygame.font.Font(None, 36)
+color = (255, 255, 255)
+
+# Render the title text
+title_text = font.render("Welcome to our program", True, color)
+
+# Position the title text
+title_rect = title_text.get_rect(center=(image.get_width()/2, 50))
+
+# Blit the title text on the screen
+screen.blit(title_text, title_rect)
+
+# Render the subtitle text
+subtitle_text = font.render("Press any key to continue", True, color)
+
+# Position the subtitle text
+subtitle_rect = subtitle_text.get_rect(center=(image.get_width()/2, image.get_height() - 50))
+
+# Blit the subtitle text on the screen
+screen.blit(subtitle_text, subtitle_rect)
+
+# Update the display
+pygame.display.flip()
+
+# Wait for the user to press a key
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        elif event.type == pygame.KEYDOWN:
+            running = False
+
+# Quit pygame
+pygame.quit()
+import pygame
+
+# Initialize pygame
+pygame.init()
+
+# Set the window caption
+pygame.display.set_caption("Welcome Screen")
+
+# Load the image
+image = pygame.image.load("welcome.jpg")
+
+# Create the window
+screen = pygame.display.set_mode((image.get_width(), image.get_height()))
+
+# Display the image
+screen.blit(image, (0,0))
+
+# Define the font and the text color
+font = pygame.font.Font(None, 36)
+color = (255, 255, 255)
+
+# Render the title text
+title_text = font.render("Welcome to our program", True, color)
+
+# Position the title text
+title_rect = title_text.get_rect(center=(image.get_width()/2, 50))
+
+# Blit the title text on the screen
+screen.blit(title_text, title_rect)
+
+# Render the subtitle text
+subtitle_text = font.render("Press any key to continue", True, color)
+
+# Position the subtitle text
+subtitle_rect = subtitle_text.get_rect(center=(image.get_width()/2, image.get_height() - 50))
+
+# Blit the subtitle text on the screen
+screen.blit(subtitle_text, subtitle_rect)
+
+# Update the display
+pygame.display.flip()
+
+# Wait for the user to press a key
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        elif event.type == pygame.KEYDOWN:
+            running = False
+
+# Quit pygame
+pygame.quit()
+import pygame
+
+# Initialize pygame
+pygame.init()
+
+# Set the window caption
+pygame.display.set_caption("Welcome Screen")
+
+# Load the image
+image = pygame.image.load("welcome.jpg")
+
+# Create the window
+screen = pygame.display.set_mode((image.get_width(), image.get_height()))
+
+# Display the image
+screen.blit(image, (0,0))
+
+# Define the font and the text color
+font = pygame.font.Font(None, 36)
+color = (255, 255, 255)
+
+# Render the title text
+title_text = font.render("Welcome to our program", True, color)
+
+# Position the title text
+title_rect = title_text.get_rect(center=(image.get_width()/2, 50))
+
+# Blit the title text on the screen
+screen.blit(title_text, title_rect)
+
+# Render the subtitle text
+subtitle_text = font.render("Press any key to continue", True, color)
+
+# Position the subtitle text
+subtitle_rect = subtitle_text.get_rect(center=(image.get_width()/2, image.get_height() - 50))
+
+# Blit the subtitle text on the screen
+screen.blit(subtitle_text, subtitle_rect)
+
+# Update the display
+pygame.display.flip()
+
+# Wait for the user to press a key
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        elif event.type == pygame.KEYDOWN:
+            running = False
+
+# Quit pygame
+pygame.quit()
+import pygame
+
+# Initialize pygame
+pygame.init()
+
+# Set the window caption
+pygame.display.set_caption("Welcome Screen")
+
+# Load the image
+image = pygame.image.load("welcome.jpg")
+
+# Create the window
+screen = pygame.display.set_mode((image.get_width(), image.get_height()))
+
+# Display the image
+screen.blit(image, (0,0))
+
+# Define the font and the text color
+font = pygame.font.Font(None, 36)
+color = (255, 255, 255)
+
+# Render the title text
+title_text = font.render("Welcome to our program", True, color)
+
+# Position the title text
+title_rect = title_text.get_rect(center=(image.get_width()/2, 50))
+
+# Blit the title text on the screen
+screen.blit(title_text, title_rect)
+
+# Render the subtitle text
+subtitle_text = font.render("Press any key to continue", True, color)
+
+# Position the subtitle text
+subtitle_rect = subtitle_text.get_rect(center=(image.get_width()/2, image.get_height() - 50))
+
+# Blit the subtitle text on the screen
+screen.blit(subtitle_text, subtitle_rect)
+
+# Update the display
+pygame.display.flip()
+
+# Wait for the user to press a key
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        elif event.type == pygame.KEYDOWN:
+            running = False
+
+# Quit pygame
+pygame.quit()
